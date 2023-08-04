@@ -59,4 +59,8 @@ console.log(chats.couleur); // TABLEAU = ARRAY
 console.log(chats.sexe); // CHAINE DE CARACTERE = STRING
 console.log(chats.sterilise); // BOOLEEN = BOOLEAN
 console.log(chats.puce); // INDEFINI = UNDEFINED
+// Nous allons basculer le projet vers une NOUVELLE branche : branche de developement
+
+
+
 
