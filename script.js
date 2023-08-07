@@ -38,7 +38,7 @@ let myAlphabet = [
     "/",
     "-",
     "+",
-  ];
+];
 
 // Traitement : What is the length of the array?
 console.log(myAlphabet.length); // Résultat 31
@@ -75,9 +75,10 @@ for (let index = 0; index < planets.length; index++) {
 // Enoncé : Also console.log the index in each iteration.
 // Traitement
 planets.forEach(function(element, index) {
+    
     // Résultat
     console.log(element, index); 
-    /*
+    /* Expected output:
         pluton 0
         mercure 1
         jupiter 2
@@ -85,6 +86,30 @@ planets.forEach(function(element, index) {
         lune 4
     */ 
 });
+
+//Exo3 : 3. Manipulate data types
+/* Declare and initialize an array called someDataTypes.
+This array must have 4 differents data types(NOT Objects).
+Write and display in your console the typeof for each iteration.
+Display in your console the index of each data in your array. 
+*/
+
+const someDataTypes = [true,"this is my string", 4, undefined];
+
+// treatment
+someDataTypes.forEach(function(element, index){
+
+    // Result
+    console.log(element, typeof element, index);
+    /* Epected output:
+    true 'boolean' 0
+    this is my string string 1
+    4 'number' 2
+    undefined 'undefined' 3
+    */
+
+});
+
 
 
 
