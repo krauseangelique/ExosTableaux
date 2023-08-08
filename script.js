@@ -110,6 +110,34 @@ someDataTypes.forEach(function(element, index){
 
 });
 
+// Exo4 :  Empty Array
+/* Create an empty Array.
+console.log this empty Array and keep it during all this exercise.
+Add some data in it, the type you want, the theme you want.
+Copy your Array
+console.log this new Array
+=> methode SLICE()
+*/
+// Variables
+let emptyTab = [];
+emptyTab = [null, false, 1, 'hello'];
+
+// Treatment
+// Copy your Array
+const copyEmptyTab = emptyTab.slice();
+
+// Result
+console.log(copyEmptyTab);
+/* Epected output:
+    (4) [null, false, 1, 'hello']
+*/
+
+// Exo5 : How many letters?
+/*
+let furnitures = ['Table', 'Chairs','Couch'];
+For each item in this array console.log the letters in each item.
+*/
+
 
 
 
