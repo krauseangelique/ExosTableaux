@@ -2,7 +2,7 @@ console.log("Ca fonctionne !");
 
 // Exercices : Les Tableaux
 
-// Exo1 : 
+// Exo1: 
 
 
 // Données
@@ -52,7 +52,7 @@ function forAlphabet() {
 forAlphabet(); // Résultat 31
 
 
-// Exo2 : Create an Array
+// Exo2: Create an Array
 
 // Enoncé : Declare and initialize an array called planets with 5 string values.
 const planets = ["pluton", "mercure", "jupiter", "uranus", "lune"];
@@ -87,7 +87,7 @@ planets.forEach(function(element, index) {
     */ 
 });
 
-//Exo3 : 3. Manipulate data types
+//Exo3:  Manipulate data types
 /* Declare and initialize an array called someDataTypes.
 This array must have 4 differents data types(NOT Objects).
 Write and display in your console the typeof for each iteration.
@@ -110,7 +110,7 @@ someDataTypes.forEach(function(element, index){
 
 });
 
-// Exo4 :  Empty Array
+// Exo4:  Empty Array
 /* Create an empty Array.
 console.log this empty Array and keep it during all this exercise.
 Add some data in it, the type you want, the theme you want.
@@ -132,11 +132,37 @@ console.log(copyEmptyTab);
     (4) [null, false, 1, 'hello']
 */
 
-// Exo5 : How many letters?
+// Exo5: How many letters?
 /*
 let furnitures = ['Table', 'Chairs','Couch'];
 For each item in this array console.log the letters in each item.
 */
+// Variables
+let furnitures = ['Table', 'Chairs', 'Couch'];
+
+// Treatment
+furnitures.forEach(function (element){
+
+    // Result
+    console.log(element, element.length);
+
+});
+
+// Exo6: Which one is a number?
+// Variables
+let values1 = ["Apple", 1, false, "2"];
+let values2 = [`5`, "Fries", 2, true];
+let values3 = ["Mars", "Strawberry", 9];
+// Delete data types which are not numbers.
+
+//if values1.items is not a Number delete it.
+values1.forEach(function (element){
+    
+
+});
+
+// Exo7: Gemini(optional & hard)
+
 
 
 
